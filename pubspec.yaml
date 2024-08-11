@@ -1,0 +1,28 @@
+name: polling_app
+description: A polling app for Flutter practice project.
+
+# The following defines the version and build number for your application.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.0
+  equatable: ^2.0.3
+  http: ^0.13.4
+  shared_preferences: ^2.0.15
+  provider: ^6.0.2
+  intl: ^0.17.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.1.7
+  json_serializable: ^6.1.4
+  lint: ^1.7.0
+
+flutter:
+  uses-material-design: true

@@ -1,0 +1,16 @@
+build/
+.dockerignore
+.pub-cache
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.idea
+.vscode
+*.iml
+*.lock
+.git/
+*.swp
+*.swo
+.flutter-plugins
+.dart_tool/
+packages
